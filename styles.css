@@ -1,3 +1,51 @@
-.left {
-    
+
+
+.logo {
+width:50px;
+height: auto;
 }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    margin:0;
+justify-content: center;
+background-color: #1F2937;
+}
+
+.white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    align-content: flex-start;
+}
+
+.info {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.info,
+img {
+    width: 100px;
+    height: auto;
+}
+
+img {
+    width: 300px;
+    height:auto;
+}
+
+.left {
+    flex-direction: column;
+}
+
+
+
