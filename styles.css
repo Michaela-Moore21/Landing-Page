@@ -54,6 +54,23 @@ img {
 
 .blue {
     background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.right {
+   margin-left: auto;
+}
+
+.left {
+    margin-right: auto;
 }
 
 
