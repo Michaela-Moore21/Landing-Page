@@ -19,12 +19,10 @@ background-color: #1F2937;
 
 .white {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-}
-
-.title {
-    align-content: flex-start;
+    flex: 1;
+    margin-top: 40px;
 }
 
 .info {
@@ -32,11 +30,6 @@ background-color: #1F2937;
     flex-direction: row;
 }
 
-.info,
-img {
-    width: 100px;
-    height: auto;
-}
 
 img {
     width: 300px;
@@ -45,6 +38,22 @@ img {
 
 .left {
     flex-direction: column;
+}
+
+.gray {
+    background-color: #E5E7EbS;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.info,
+img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.blue {
+    background-color: #3882F6;
 }
 
 
