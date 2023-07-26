@@ -1,6 +1,6 @@
-
-
-.logo {
+* {
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto Slab', serif;
 }
 
 .header {
@@ -82,8 +82,9 @@ margin-left: 60%;
     background-color: #3882F6;
     font-size: 18px;
     color: #E5E7EB;
-   margin: 100px;
-    
+   margin: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .left {
@@ -97,6 +98,8 @@ margin-left: 60%;
     justify-content: flex-end;
     align-self: center;
     margin-left: 100px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 
